@@ -20,4 +20,15 @@ for($i = 0; $i < 10; $i++){
 }
 
 
+If($_REQUEST['generoNat'] = 1){
+
+	var_dump("Salida Esperada MASCULINO");
+
+}else{
+
+	var_dump("Salida Esperada FEMENINO");
+
+}
+
+
 ?>
