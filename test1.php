@@ -2,17 +2,17 @@
 
 
 //Lineas Iniciales Archivo Original
-
+//Cambio de Cast por Tipo de Variable
 
 for($i = 0; $i < 10; $i++){
 
 	if(isset($_REQUEST['generoNat'])){//CAST
 		switch($_REQUEST['generoNat']){
-			case 'MASCULINO' :
-				$_REQUEST['generoNat'] = 1;
+			case 1 :
+				$_REQUEST['generoNat'] = 'MASCULINO';
 				break;
-			case 'FEMENINO' :
-				$_REQUEST['generoNat'] = 2;
+			case 2 :
+				$_REQUEST['generoNat'] = 'FEMENINO';
 				break;
 		}
 	}
